@@ -1,0 +1,20 @@
+.container{
+    .row{
+        .dragZone{
+            display: flex;
+            justify-content: center;
+            margin-top: 45px;
+            .dragArea{
+                width: 35%;
+                height: 250px;
+                border: dashed 2px;
+                .title{
+                    p{
+                        font-size: 30px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

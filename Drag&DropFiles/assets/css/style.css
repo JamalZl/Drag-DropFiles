@@ -1,0 +1,20 @@
+.container .row .dragZone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.container .row .dragZone .dragArea {
+  width: 35%;
+  height: 250px;
+  border: dashed 2px;
+}
+
+.container .row .dragZone .dragArea .title p {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
